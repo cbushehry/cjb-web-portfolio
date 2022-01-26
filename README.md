@@ -1,12 +1,14 @@
 # cjb-web-portfolio
 
 ## 1. Description
-This is my online portfolio.
+This website is my online portfolio.
+
+https://cbushehry.github.io/cjb-web-portfolio/
 
 ## 2. Features
  * Download my resume
- * Shortcuts to my best applications
- * Contact Information
+ * Shortcuts to a few of my applications
+ * Contact information
 
 ## 3. Credits
 This website was created by Cameron Bushehry
