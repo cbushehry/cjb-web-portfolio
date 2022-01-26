@@ -57,6 +57,28 @@ header nav ul li a {
 }
 /*END HEADER/NAVIGATION CSS*/
 
+/*START HERO CSS*/
+.hero {
+  height: 200px;
+  width: 100%;
+  background-image: url(../images/portf-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 50px 25px 0;
+}
+
+.hero p {
+  background-color: var(--contrast-color);
+  color: var(--primary-color);
+  height: 45px;
+  font-size: 36px;
+  padding: 0 15px;
+  font-weight: bold;
+}
+/*END HERO CSS*/
 
 /*START FOOTER CSS*/
 footer {
@@ -94,3 +116,41 @@ footer address ul li a {
   border-bottom: 3px solid var(--primary-color);
 }
 /* END FOOTER CSS */
+
+
+
+
+@media screen and (max-width: 1244px) {
+  .work {
+      display: flex;
+      flex-flow: wrap column;
+  }
+
+  .primary-application {
+      height: 250px;
+      background-size: cover;
+  }
+  
+  .secondary-block {
+      display: flex;
+      flex-flow: wrap column;
+  }
+
+  .float-left, .float-right {
+      float: none;
+      width: 80%;
+      margin: 5px auto;
+  }
+
+  .section-title {
+      border-right: none;
+      border-bottom: 4px solid var(--primary-color);
+      text-align: center;
+      margin: 0 auto 15px auto;
+      width: 80%;
+  }
+
+  .section-title h2 {
+      text-align: center;
+  }
+}
