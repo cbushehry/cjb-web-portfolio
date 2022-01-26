@@ -1,1 +1,119 @@
-test code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- HEADER / NAVIGATION BAR -->
+<header>
+    <span class="span-background title">
+        <h1>Cameron Bushehry</h1>
+    </span>
+    <nav>
+        <ul class="nav-effects">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-work">My Work</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            <li> <a href="./assets/resume/firstname-lastname-resume-2020.docx" download>Download Resume</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO / JUMBOTRON -->
+<section class="hero">
+    <div class="hero-subtitle">           
+        <span class="span-background opacity">
+            Welcome to my  Online Portfolio!
+        </span>
+    </div>
+</section>
+
+<!-- ABOUT ME SECTION -->
+<section> 
+    <div id="about-me" class="about-me-wrapper"> 
+        <div class="about-me-grid-container"> 
+            <div class="about-me-item about-me-title"> 
+                <p> About me </p>
+            </div>
+            <div class="about-me-item p1">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                    mollit anim id est laborum.</p>
+            </div>
+            <div class="about-me-item p2">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                    in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>  
+        </div>
+    </div> 
+</section>
+
+<!-- MY WORK SECTION-->
+<article>
+    <div id="work" class="work-wrapper"> 
+        <div class="work-grid-container"> 
+            <div class="work-item work-title"> 
+                <p> Work </p>
+            </div>
+
+            <div onclick="projectClicked('surf-report')"  title="Surf Report"  style="cursor: pointer;" class="work-item-project surf-report">
+                <span class="span-background"> 
+                    <h3>Surf Report (coming soon!)</h3>
+                    <span class="lower-text">MERN Stack</span> 
+                </span>
+            </div>
+
+            <div onclick="projectClicked('run-buddy')" alt="Image of RUN BUDDY main Page" title="RUN BUDDY main page" style="cursor: pointer;" class="work-item-project run-buddy">
+                <span class="span-background">
+                    <h3>Run Buddy</h3>
+                    <span class="lower-text">HTML/CSS</span>
+                </span>
+            </div>
+
+            <div onclick="projectClicked('password-generator')" alt="Image of Password Generator main page" title="Password Generator main page" style="cursor: pointer;" class="work-item-project password-generator">
+                <span class="span-background">
+                    <h3>Password Generator</h3>
+                    <span class="lower-text">CSS/Javascript</span>
+                </span>
+            </div>
+
+            <div onclick="projectClicked('my-work-box4')" alt=" " title=" " style="cursor: pointer;" class="work-item-project my-work-box4">
+                <span class="span-background">
+                    <h3>Coming soon!</h3>
+                    <span class="lower-text">TBD</span>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</article>
+
+<!-- FOOTER / CONTACT INFO -->
+<footer>
+    <div id="contact-me" class="footer-wrapper">
+        <div class="footer-container">
+            <div class="footer-grid-item contact-me">
+                Contact Me
+            </div>
+            <div class="footer-grid-item phone">
+                <a href="tel:510-303-8971" class="nav-effects">510-303-8971</a>
+            </div>
+            <div class="footer-grid-item email"> 
+                <a href="mailto:cbushehry@gmail.com">c.bushehry@gmail.com</a>
+            </div>
+            <div class="footer-grid-item git-hub"> 
+                <a href="https://github.com/cbushehry/" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

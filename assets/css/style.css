@@ -1,1 +1,333 @@
-test 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER CSS */
+header {
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  background-color: grey; 
+}
+
+header h1 {
+  padding-left: 50px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-right: 0px;
+}
+
+header nav ul li {
+  font-size: 1.8vw;
+  padding: 10px 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  }
+  
+header a {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: 3px solid lightgreen;
+  color: lightgreen;
+}
+
+.nav-effects a:hover { 
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: 0px 0px 20px gold;
+}
+/* END HEADER CSS */
+
+
+/* BODY CSS */
+body{
+  background-color: lightgray;
+  font-family:  serif;
+}
+/* END BODY CSS */
+  
+
+/*-----------------HOVER EFFECTS--------------------*/
+.work-grid-container div:hover{ 
+  mix-blend-mode: color-burn;
+}
+
+.footer-container a:hover{
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: 0px 0px 20px gold;
+}
+/*-----------------END HOVER EFFECTS----------------*/
+
+
+/* FOOTER CSS */
+footer {
+  background-color: grey; 
+  color: black; 
+}
+  
+footer a {
+  text-decoration: none;
+  border-bottom: 3px solid lightgreen;
+  color: lightgreen;
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+
+/* END FOOTER CSS */
+  
+
+/*------------------HERO / JUMBOTRON CSS -----------------*/
+.hero { 
+  height: 300px;
+  background-image: url("../images/portf-hero.jpg");
+  border-bottom-left-radius: 30px 30px; 
+  border-bottom-right-radius: 30px 30px;
+  background-size: cover; 
+  background-position:  100% 13%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+}
+  
+.hero-subtitle {
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+  /* --------------END HERO / JUMBOTON CSS ------------*/
+
+
+
+/* ABOUT ME CONTENT CSS */
+.about-me-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 50px;
+}
+  
+.about-me-grid-container {
+  width: 80%; 
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 2fr); 
+  grid-template-rows: repeat(4, 1fr); 
+  gap: 10px 10px; 
+}
+  
+.about-me-item.about-me-title {
+  padding-top: 0px;
+  font-size: 35px;
+  grid-row: 1 / span 4;
+  padding-right: 10px;
+  text-align: right;
+  border-right: 2px solid black;
+}
+  
+.about-me-item.p1 {
+  padding-left: 10px;
+  grid-column: 2 / span 3;
+  grid-row: 1 / span 2;
+}
+  
+.about-me-item.p2 {
+  padding-left: 10px;
+  grid-column: 2 / span 3;
+  grid-row: 3 / span 2;
+}
+/* END ABOUT ME CONTENT CSS */
+
+
+
+.work-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.work-grid-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 2fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 10px 10px;
+}
+  
+.work-item.work-title {
+  padding-top: 10px;
+  font-size: 35px;
+  grid-row: 1 / span 9;
+  text-align: right;
+  padding-right: 10px;
+  border-right: 2px solid black;
+}
+
+.work-item-project.surf-report { 
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 6;
+  background-image: url("../images/coming-soon.JPG");
+  background-size: cover; 
+  display: flex; 
+  align-items: flex-end; 
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid black;
+}
+
+.work-item-project.run-buddy {
+  grid-column: 3 /span 1;
+  grid-row: 7 / span 3;
+  background-image: url("../images/run-buddy-image.JPG");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid black;
+}
+  
+.work-item-project.password-generator {
+  grid-column: 2 / span 1;
+  grid-row: 7 / span 3; 
+  background-image: url("../images/coming-soon.JPG");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end; 
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid black;
+  }
+
+.work-item-project.my-work-box4 {
+  grid-column: 2 / span 2;
+  grid-row: 10 / span 2; 
+  background-image: url("../images/coming-soon.JPG");
+  background-size: cover;
+  display: flex; 
+  align-items: flex-end; 
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid black;
+}
+
+
+
+  /* SPAN CSS */
+.span-background { 
+  background-color: lightgreen;
+  position: relative;
+  line-height: 1.5;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5%;
+  opacity: .8;
+  }
+  
+  .span-background.title { 
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+  
+  .span-background.opacity{
+  opacity: .95; 
+  font-size: 30px;
+  }
+  
+  .span-background.lower-text {
+  font-size: x-small;
+  }
+  /* END SPAN CSS */
+
+
+
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+  
+.footer-container { 
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 2fr); 
+  grid-template-rows: repeat(3,2fr); 
+  gap: 20px 20px; 
+}
+  
+.footer-grid-item {
+  text-align: center;
+  min-height: 60px;
+}
+  
+.footer-grid-item.contact-me {
+  padding-top: 10px;
+  font-size: 35px;
+  grid-row: 1 / span 3;
+  text-align: right;
+  padding-right: 10px;
+  border-right: 2px solid lightgreen;
+}
+  
+
+.footer-container { 
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2.5px 2.5px; 
+}
+
+.footer-grid-item.contact-me {
+  padding-top: 0px;
+  font-size: 25px;
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 1;
+  text-align: center;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  border-right: none;
+  border-bottom: 2px solid lightgreen;
+  padding-left: 25px;
+}
+
+.footer-grid-item.phone{
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 2;
+  align-self: center;
+  padding-left: 10px;
+}
+
+.footer-grid-item.email{
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 2;
+  align-self: center;
+  padding-left: 25px;
+}
+
+.footer-grid-item.git-hub{
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 2;
+  align-self: center;
+  width: 20px;
+  padding-left: 80px;
+}
