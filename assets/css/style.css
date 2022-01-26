@@ -57,6 +57,7 @@ header nav ul li a {
 }
 /*END HEADER/NAVIGATION CSS*/
 
+
 /*START HERO CSS*/
 .hero {
   height: 200px;
@@ -80,6 +81,126 @@ header nav ul li a {
 }
 /*END HERO CSS*/
 
+
+/*START CONTENT CSS*/
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.about-me p {
+  margin: 15px auto 0 auto;
+  width: 75%;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.applications {
+  height: auto;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.primary-application {
+  display: block;
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+  opacity: .75;
+  background-image: url(../images/primary-application.jpg);
+  border: 4px solid var(--primary-color);
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  color: black;
+}
+
+.primary-application:hover {
+  opacity: 1;
+}
+
+.secondary-application {
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  opacity: .75;
+  margin: 25px;
+  border: 4px solid var(--primary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.secondary-application:hover {
+  opacity: 1;
+}
+
+.app-tag {
+  background-color: var(--contrast-color);
+  font-size: 12px;
+  text-align: left;
+  border: 2px solid var(--primary-color);
+  border-left: 0;
+  padding: 2px 5px;
+  margin-bottom: 5%;
+}
+
+.float-left {
+  float: left;
+  width: 38%;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.float-right {
+  float: right;
+  width: 38%;
+  margin-right: 10%;
+  margin-left: 2%;
+}
+
+.img1 {
+  background-image: url(../images/run-buddy-image.JPG);
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url(../images/run-buddy-screenshot.jpg);
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url(../images/weather-dashboard.png);
+  background-size: cover;
+}
+
+.img4 {
+  background-image: url(../images/day-schedueler.png);
+  background-size: cover;
+}
+/*END CONTENT CSS*/
+
+
+/*CLASS CSS*/
+.section-title {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 32px;
+  text-align: right;
+  border-right: 4px solid var(--primary-color);
+  padding-right: 5px;
+  width: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
 /*START FOOTER CSS*/
 footer {
   padding: 20px 0;
@@ -90,7 +211,7 @@ footer {
 
 footer address {
   margin: auto;
-  width: 85%;
+  width: 75%;
 }
 
 footer a {
@@ -116,7 +237,6 @@ footer address ul li a {
   border-bottom: 3px solid var(--primary-color);
 }
 /* END FOOTER CSS */
-
 
 
 
