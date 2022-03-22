@@ -3,7 +3,7 @@
 ## 1. Description
 Welcome to my online web portfolio. Find some more information about me, and also direct links to some of my best projects!
 
-https://cbushehry.github.io/cjb-web-portfolio/
+[DIRECT LINK](https://cbushehry.github.io/cjb-web-portfolio/)
 
 ## 2. Features
  * Download my resume
