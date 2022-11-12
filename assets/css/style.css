@@ -154,8 +154,8 @@ section {
     opacity: 0;
 }
 
-a.mainproject {
-    background-image: url(../images/git-cooking.jpg);
+a.music-previewer {
+    background-image: url(../images/music-previewer.jpg);
 }
 
 a.project1 {
