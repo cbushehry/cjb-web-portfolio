@@ -118,24 +118,23 @@ section {
 /* Work */
 .work .content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-auto-rows: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px; /* Increase the height of the tiles */
     grid-gap: 20px;
 }
 
 .work .content a {
     display: flex;
-    grid-column: span 2;
-    grid-row: span 2;
     border: var(--primary-color) solid 3px;
     background-size: cover;
     position: relative;
     align-items: flex-end;
 }
 
-.work .content a:first-child {
-    grid-column: 1 / span 4;
-    grid-row: 1 / span 4;
+.main-project {
+    grid-column: span 2;
+    grid-row: span 2;
+    height: 300px; /* Increase the height for the main projects */
 }
 
 .work .content a::after {
