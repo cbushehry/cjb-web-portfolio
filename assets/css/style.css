@@ -157,6 +157,14 @@ section {
     opacity: 0;
 }
 
+a.interstellar-interceptor {
+    background-image: url(../images/interstellar-interceptor.png);
+}
+
+a.pac-rim-lgx {
+    background-image: url(../images/pac-rim-lgx.png);
+}
+
 a.music-previewer {
     background-image: url(../images/music-previewer.jpg);
 }
