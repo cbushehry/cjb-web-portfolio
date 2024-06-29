@@ -201,18 +201,6 @@ a.language-learner {
     background-image: url(../images/language-learner.png);
 }
 
-a.tech-blog {
-    background-image: url(../images/tech-blog.jpg);
-}
-
-a.budget-tracker {
-    background-image: url(../images/budget-tracker.jpg);
-}
-
-a.note-taker {
-    background-image: url(../images/note-taker.jpg);
-}
-
 .work-topic {
     background: var(--primary-color);
     padding: 4px 12px;
